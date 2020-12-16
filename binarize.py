@@ -193,7 +193,7 @@ def train_discriminator( real_data, fake_data):
 
 
 year_test=2018
-data_path = 'content/drive/MyDrive/DIBCO/'+str(year_test)+'/'
+data_path = 'content/drive/MyDrive/DIBCO/'+str(year_test)
 save_dir = './Output/'+str(year_test)+'/'
 model_path='./models/'+str(year_test)+'/'
 bs = 6
