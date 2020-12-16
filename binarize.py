@@ -21,8 +21,8 @@ class ImgDataset(Dataset):
 
 	def __init__(self, root_dir, transform_data=None, transform_gt=None):
 		
-		data_dir = root_dir+"/images/"
-		gt_dir	 = root_dir+"/gt/"
+		data_dir = root_dir+"/images"
+		gt_dir	 = root_dir+"/gt"
 
 		self.img_pairs=[]
 
@@ -193,7 +193,7 @@ def train_discriminator( real_data, fake_data):
 
 
 year_test=2018
-data_path = 'content/drive/MyDrive/DIBCO/'+str(year_test)
+data_path = '/content/drive/MyDrive/DIBCO/'+str(year_test)
 save_dir = './Output/'+str(year_test)+'/'
 model_path='./models/'+str(year_test)+'/'
 bs = 6
