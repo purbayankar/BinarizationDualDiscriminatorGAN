@@ -21,8 +21,8 @@ class ImgDataset(Dataset):
 
 	def __init__(self, root_dir, transform_data=None, transform_gt=None):
 		
-		data_dir = root_dir+"/images"
-		gt_dir	 = root_dir+"/gt"
+		data_dir = root_dir+"/images/"
+		gt_dir	 = root_dir+"/gt/"
 
 		self.img_pairs=[]
 
