@@ -192,7 +192,7 @@ def train_discriminator( real_data, fake_data):
 	return tot_real_error+tot_fake_error
 
 
-year_test=2018
+year_test=2016
 data_path = '/content/drive/MyDrive/DIBCO/'+str(year_test)
 save_dir = './Output/'+str(year_test)+'/'
 model_path='./models/'+str(year_test)+'/'
